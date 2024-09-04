@@ -48,9 +48,25 @@
     padding-bottom:5px;
 }
 
+a {
+    text-decoration: none;
+    color:black;
+}
+
 .grid-item img {
     width:100%;
     border-radius: 10px;
+}
+
+.grid-item:hover {
+    border-radius: 8px;
+    border: 1px solid #202020;
+    cursor: pointer;
+}
+
+.grid-item:active {
+    color: #355E3B;
+    border: 1px solid #355E3B;
 }
 
 h2 {
